@@ -10,6 +10,7 @@
 #include "VirtualTest.h"
 #include "ClassTest.h"
 #include "VectorTest.h"
+#include "DesignPatternTest.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -21,6 +22,10 @@ int main(int argc, const char * argv[]) {
     
     ClassTest* classtest = ClassTest::create();
     classtest->release();
+    
+    DesignPatternTest* designPatterntest = DesignPatternTest::create();
+    designPatterntest->release();
+    
     
     // insert code here...
 //    std::cout << "Hello, World!\n";

@@ -33,9 +33,12 @@ VirtualTest::~VirtualTest()
 
 bool VirtualTest::init()
 {
+    cout<<"=================VirtualTest::Start===================="<<endl;
     ClxBase* base = new ClxChild();
     base->getString();
     delete base;
+    
+    cout<<"=================VirtualTest::End===================="<<endl<<endl;
     
     return true;
 }

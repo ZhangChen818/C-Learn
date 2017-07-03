@@ -32,7 +32,14 @@ VectorTest::~VectorTest()
 
 bool VectorTest::init()
 {
+    cout<<"=================VectorTest::Start===================="<<endl;
     
+    
+    
+    
+    
+    
+    cout<<"=================VectorTest::End======================"<<endl<<endl;
     return true;
 }
 
