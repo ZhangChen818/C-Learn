@@ -47,6 +47,13 @@ bool ClassTest::init()
     cout<<"sizeof(D) = "<<sizeof(D)<<endl; //8
     cout<<"sizeof(E) = "<<sizeof(E)<<endl; //13+4
     
+    A* test1 = new D();
+    test1->getDesc();
+    delete test1;
+    B* test2 = new C();
+    test2->getDesc();
+    delete test2;
+    
     
     cout<<"=================ClassTest::End===================="<<endl<<endl;
     

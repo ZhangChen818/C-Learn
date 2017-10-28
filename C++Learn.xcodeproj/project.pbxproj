@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9746E1291F0A40C700941C58 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9746E1281F0A40C700941C58 /* main.cpp */; };
 		9746E1391F0A410900941C58 /* ClassTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9746E1301F0A410900941C58 /* ClassTest.cpp */; };
-		9746E13A1F0A410900941C58 /* VirtualTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9746E1321F0A410900941C58 /* VirtualTest.cpp */; };
 		9746E13B1F0A410900941C58 /* VectorTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9746E1351F0A410900941C58 /* VectorTest.cpp */; };
 		9746E13E1F0A631400941C58 /* StateDesign.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9746E13C1F0A631400941C58 /* StateDesign.cpp */; };
 		9746E1411F0A68AC00941C58 /* DesignPatternTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9746E13F1F0A68AC00941C58 /* DesignPatternTest.cpp */; };
@@ -32,8 +31,6 @@
 		9746E1281F0A40C700941C58 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9746E1301F0A410900941C58 /* ClassTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClassTest.cpp; sourceTree = "<group>"; };
 		9746E1311F0A410900941C58 /* ClassTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassTest.h; sourceTree = "<group>"; };
-		9746E1321F0A410900941C58 /* VirtualTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VirtualTest.cpp; sourceTree = "<group>"; };
-		9746E1331F0A410900941C58 /* VirtualTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VirtualTest.h; sourceTree = "<group>"; };
 		9746E1351F0A410900941C58 /* VectorTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VectorTest.cpp; sourceTree = "<group>"; };
 		9746E1361F0A410900941C58 /* VectorTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VectorTest.h; sourceTree = "<group>"; };
 		9746E1381F0A410900941C58 /* TestBase.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TestBase.hpp; sourceTree = "<group>"; };
@@ -87,8 +84,6 @@
 			children = (
 				9746E1301F0A410900941C58 /* ClassTest.cpp */,
 				9746E1311F0A410900941C58 /* ClassTest.h */,
-				9746E1321F0A410900941C58 /* VirtualTest.cpp */,
-				9746E1331F0A410900941C58 /* VirtualTest.h */,
 			);
 			path = "C++Base";
 			sourceTree = "<group>";
@@ -172,7 +167,6 @@
 			files = (
 				9746E1391F0A410900941C58 /* ClassTest.cpp in Sources */,
 				9746E13E1F0A631400941C58 /* StateDesign.cpp in Sources */,
-				9746E13A1F0A410900941C58 /* VirtualTest.cpp in Sources */,
 				9746E13B1F0A410900941C58 /* VectorTest.cpp in Sources */,
 				9746E1411F0A68AC00941C58 /* DesignPatternTest.cpp in Sources */,
 				9746E1291F0A40C700941C58 /* main.cpp in Sources */,
