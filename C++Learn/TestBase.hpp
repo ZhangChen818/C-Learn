@@ -20,7 +20,4 @@
 #include <iostream>
 
 using namespace std;
-
-
-
 #endif /* TestBase_hpp */

@@ -7,12 +7,14 @@
 //
 
 #include <iostream>
+#include <stdio.h>
+#include <vector>
+#include <string>
 #include "ClassTest.h"
 #include "VectorTest.h"
 #include "DesignPatternTest.h"
-#include <time.h>
-#include <stdio.h>
-#include <sys/time.h>
+#include "TimeTest.h"
+#include "TestBase.hpp"
 
 long long getCurrentTime()
 {
@@ -22,7 +24,13 @@ long long getCurrentTime()
 }
 
 int main(int argc, const char * argv[]) {
-    
+    //输入参数
+    vector<string> m_vecArg;
+    for(int i=0;i<argc;i++)
+    {
+        //cout<<"输入参数 "<<i<<": "<<argv[i]<<endl;
+        m_vecArg.push_back(argv[i]);
+    }
     VectorTest* vectortest = VectorTest::create();
     vectortest->release();
     
@@ -31,6 +39,9 @@ int main(int argc, const char * argv[]) {
     
     DesignPatternTest* designPatterntest = DesignPatternTest::create();
     designPatterntest->release();
+    
+    TimeTest* timetest = TimeTest::create();
+    timetest->release();
     
     long long turn_count = 10000000;
     

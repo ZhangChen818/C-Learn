@@ -12,6 +12,7 @@
 		9746E13B1F0A410900941C58 /* VectorTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9746E1351F0A410900941C58 /* VectorTest.cpp */; };
 		9746E13E1F0A631400941C58 /* StateDesign.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9746E13C1F0A631400941C58 /* StateDesign.cpp */; };
 		9746E1411F0A68AC00941C58 /* DesignPatternTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9746E13F1F0A68AC00941C58 /* DesignPatternTest.cpp */; };
+		9761983B20107591008AB13B /* TimeTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9761983A20107591008AB13B /* TimeTest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,11 +34,13 @@
 		9746E1311F0A410900941C58 /* ClassTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassTest.h; sourceTree = "<group>"; };
 		9746E1351F0A410900941C58 /* VectorTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VectorTest.cpp; sourceTree = "<group>"; };
 		9746E1361F0A410900941C58 /* VectorTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VectorTest.h; sourceTree = "<group>"; };
-		9746E1381F0A410900941C58 /* TestBase.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TestBase.hpp; sourceTree = "<group>"; };
 		9746E13C1F0A631400941C58 /* StateDesign.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StateDesign.cpp; sourceTree = "<group>"; };
 		9746E13D1F0A631400941C58 /* StateDesign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateDesign.h; sourceTree = "<group>"; };
 		9746E13F1F0A68AC00941C58 /* DesignPatternTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DesignPatternTest.cpp; sourceTree = "<group>"; };
 		9746E1401F0A68AC00941C58 /* DesignPatternTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignPatternTest.h; sourceTree = "<group>"; };
+		9761983820107573008AB13B /* TestBase.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TestBase.hpp; sourceTree = "<group>"; };
+		9761983920107591008AB13B /* TimeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeTest.h; sourceTree = "<group>"; };
+		9761983A20107591008AB13B /* TimeTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TimeTest.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +76,8 @@
 				9746E12F1F0A410900941C58 /* C++Base */,
 				9746E1341F0A410900941C58 /* C++STL */,
 				9746E1371F0A410900941C58 /* Designpattern */,
-				9746E1381F0A410900941C58 /* TestBase.hpp */,
 				9746E1281F0A40C700941C58 /* main.cpp */,
+				9761983820107573008AB13B /* TestBase.hpp */,
 			);
 			path = "C++Learn";
 			sourceTree = "<group>";
@@ -82,6 +85,8 @@
 		9746E12F1F0A410900941C58 /* C++Base */ = {
 			isa = PBXGroup;
 			children = (
+				9761983920107591008AB13B /* TimeTest.h */,
+				9761983A20107591008AB13B /* TimeTest.cpp */,
 				9746E1301F0A410900941C58 /* ClassTest.cpp */,
 				9746E1311F0A410900941C58 /* ClassTest.h */,
 			);
@@ -169,6 +174,7 @@
 				9746E13E1F0A631400941C58 /* StateDesign.cpp in Sources */,
 				9746E13B1F0A410900941C58 /* VectorTest.cpp in Sources */,
 				9746E1411F0A68AC00941C58 /* DesignPatternTest.cpp in Sources */,
+				9761983B20107591008AB13B /* TimeTest.cpp in Sources */,
 				9746E1291F0A40C700941C58 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
